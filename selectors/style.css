@@ -1,0 +1,24 @@
+body{
+    background-color: honeydew;
+
+}
+
+.primary-heading{
+
+    color: burlywood;
+
+}
+
+#welcome, #about{
+
+    background: #1ec773;
+    border: 2px solid #a71c1c;
+
+}
+
+#welcome{
+
+    background: #ffffff;
+
+}
+

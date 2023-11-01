@@ -1,104 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan's Totally Awesome Profile</title>
 
     <style>
-        body{
+      body{
 
-            background-image: url(./docs/assets/images/starry.gif);
+          background-image: url(./docs/assets/images/starry.gif);
 
-        }
+      }
 
-        #stuff{
-            align-content: center;
-            border: greenyellow 8px;
-            background-image: url("./docs/assets/images/starry.gif");
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            color: antiquewhite;
-            text-align: center;
-            font-size: 32px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-shadow: 4px;
-            width: 50%;
-            flex-wrap: wrap;
+      #stuff{
+          align-content: center;
+          border: greenyellow 28px;
+          background-image: url("./docs/assets/images/starry.gif");
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          color: antiquewhite;
+          text-align: center;
+          font-size: 32px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          text-shadow: 4px;
+          width: 50%;
+          flex-wrap: wrap;
 
-        }
-        #favoriteBands{
-            align-content: left;
-            image-rendering: pixelated;
-            border: 8px yellow;
-            background: none;
-        }
-        #oasis{
-            align-content: center;
-            image-rendering:optimizeSpeed;
-            border: 12px yellow;
-            background: rgb(0, 0, 0);
-        }
-        
-        #zelda{
-            align-content: right;
-            color: blue;
-            text-underline-offset: 16px;
-            background: white;
-        }
-        #airForce{
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            background-image: url("/docs/assets/images/starry.gif");
-            align-content: center;
-            color: blue;
-            width: 50%;
-            flex-wrap: wrap;
-            text-underline-offset: 16px;
-            background: rgb(0, 0, 0);
-        }
+      }
+      #favoriteBands{
+        float: none;
+          align-content: left;
+          image-rendering: pixelated;
+          border: 8px yellow;
+          background: none;
+      }
+      #oasis{
+        float: none;
+          align-content: center;
+          image-rendering:optimizeSpeed;
+          border: 12px yellow;
+      }
 
+      #bio{
+        float:inline-end
+          width: 600px;
+          padding: 40px;
+          align-self: center;
+          color: rgb(0, 255, 13);
+          text-align: center;
 
-
+      #zelda{
+        float: inline-start;
+          align-content: right;
+          color: blue;
+          text-underline-offset: 16px;
+          background: white;
+      }
+      #airForce{
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          background-image: url("/docs/assets/images/starry.gif");
+          align-content: center;
+          color: blue;
+          width: 50%;
+          flex-wrap: wrap;
+          text-underline-offset: 16px;
+          background: rgb(0, 0, 0);
+      }
     </style>
-
-</head>
-<body>
-    <div id = "stuff">
-
-        <img src="./docs/assets/images/home.png" alt="sweet" class="center"><br />
-        <img src="./docs/assets/images/homespin.gif" alt="homepage"> <br />
-        <img src="./docs/assets/images/underconstruction.gif" alt="UT OH!">
-        This web site it's UNDER CONSTRUCTION! LOL!!!
-        <img src="./docs/assets/images/underconstruction.gif" alt="UT OH!">
+  </head>
+  <body>
+    <div id="stuff">
+      <img
+        src="./docs/assets/images/home.png"
+        alt="sweet"
+        class="center"
+      /><br />
+      <img src="./docs/assets/images/homespin.gif" alt="homepage" /> <br />
+      <img src="./docs/assets/images/underconstruction.gif" alt="UT OH!" />
+      This web site it's UNDER CONSTRUCTION! LOL!!!
+      <img src="./docs/assets/images/underconstruction.gif" alt="UT OH!" />
     </div>
 
-    <div id = "favoriteBands">
-        <img src="./docs/assets/images/band1.jpg" alt="DMB IS THE BEST BAND AND ALSO MY FAVORITE BAND 1996"><br>
-            <div id="oasis">
-                <img src="./docs/assets/images/oasis.jpeg" alt="BEST ALBUM OF THE year" >
-                <img src="./docs/assets/images/boarder.jpg">
-            </div>            
-    </div>  
+    <div id="bio">
+        <p><ul>
+          so basically i'm an ultra-hacker like neo from ym favoritre movie the
+          matrix starring keanu reeves as neo whgere he wakes up and realizes the
+          world isn't quite what he thought because he's actually living in the
+          matric which is a computer simulation of earth. sometimes it feels like
+          the matrix is real? i also like x-files and star trek
+          </ul>
+        </p>
+      </div>
+
+    <div id="favoriteBands">
+      <img
+        src="./docs/assets/images/band1.jpg"
+        alt="DMB IS THE BEST BAND AND ALSO MY FAVORITE BAND 1996"
+      /><br />
+
+
+      <div id="oasis">
+
+        <img
+          src="./docs/assets/images/oasis.jpeg"
+          alt="BEST ALBUM OF THE year"
+        />
+        <img src="./docs/assets/images/boarder.jpg" />
+      </div>
+    </div>
+
+
 
     <div id="zelda">
-        <u>HYPERLINKS</u>
-        <a href="http://www.yahoo.com">Yahoo Games!</a>
-        <a href="http://www.eBay.com/404/"><img src="./docs/assets/images/ebayy.jpeg" alt="ebay auction page"></a>
-        <img src="./docs/assets/images/sh.png" alt="SHOCKWAVE DOWNLOAD REQUIRED TO CONTINUE PLEASE CONFIRM">
-        <img src="./docs/assets/images/rp.jpeg" alt="unrealplayer lol">
-        <img src="./docs/assets/images/banner.gif">
+      <u>HYPERLINKS</u>
+      <a href="http://www.yahoo.com">Yahoo Games!</a>
+      <a href="http://www.eBay.com/404/"
+        ><img src="./docs/assets/images/ebayy.jpeg" alt="ebay auction page"
+      /></a>
+      <img
+        src="./docs/assets/images/sh.png"
+        alt="SHOCKWAVE DOWNLOAD REQUIRED TO CONTINUE PLEASE CONFIRM"
+      />
+      <img src="./docs/assets/images/rp.jpeg" alt="unrealplayer lol" />
+      <img src="./docs/assets/images/banner.gif" />
     </div>
 
     <div id="airForce">
-        <img src="./docs/assets/images/jet.gif">
-        <img src="./docs/assets/images/airforceflag.gif">
-        <img src="./docs/assets/images/jet.gif"><br>
-        <img src="./docs/assets/images/counter.png">
+      <img src="./docs/assets/images/jet.gif" />
+      <img src="./docs/assets/images/airforceflag.gif" />
+      <img src="./docs/assets/images/jet.gif" /><br />
+      <img src="./docs/assets/images/counter.png" />
     </div>
-
-
-</body>
+  </body>
 </html>

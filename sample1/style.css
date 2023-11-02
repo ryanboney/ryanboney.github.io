@@ -38,7 +38,8 @@ img {
   width: 90%;
   height: 90%;
   margin: auto;
-
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -72,13 +73,23 @@ img {
   flex-direction:column;
   text-align: left;
   width: 33%;
-  
 
   img {
-
     width: 80%;
     height: auto;
   }
+
+}
+
+.guard {
+
+  padding: 1em;
+  width: 98%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  
+
 
 }
 

@@ -1,0 +1,68 @@
+.container {  
+  
+  display: grid;
+  grid-template-columns: 0.1fr 2.9fr 0.1fr;
+  grid-template-rows: 0.1fr 2.8fr 0.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". content ."
+    ". . .";
+}
+
+.content {  
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 0.3fr 2.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head head head"
+    "box box box"
+    "box box box";
+  grid-area: content;
+}
+
+.head {
+  display: grid;
+  grid-area: head;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+
+}
+
+.box {  
+  
+  display: block;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 2.1fr 0.4fr 2fr 0.4fr;
+  width: 30%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "code db it"
+    "code db it"
+    "media talent game"
+    "media talent game"
+    "foot foot foot";
+  grid-area: box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  
+}
+
+.db { grid-area: db; }
+
+.it { grid-area: it; }
+
+.media { grid-area: media; }
+
+.talent { grid-area: talent; }
+
+.code { grid-area: code; }
+
+.foot { grid-area: foot; }
+
+.game { grid-area: game; }

@@ -61,19 +61,19 @@
 
   }
 
+  img{
+
+    margin: auto;
+    width: 100px;
+    height: 100px;
+
+  }
+
   #robot{
 
     padding: 24px;
     justify-self: center;
     align-self: center;
-
-    img{
-
-      margin: auto;
-      width: 100px;
-      height: 100px;
-
-    }
 
   }
 

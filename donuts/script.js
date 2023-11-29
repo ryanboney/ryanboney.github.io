@@ -44,7 +44,7 @@ function dropDonut(){
     dropDonut.style.width = '100px'; // Sets the width of the image
     dropDonut.style.height = '100px'; // Sets the height of the image
     dropDonut.style.left = Math.random() * window.innerWidth + 'px'; // Sets a random horizontal position
-    dropDonut.style.top = '0px'; // Sets the initial vertical position to the top of the page
+    dropDonut.style.top = '-150px'; // Sets the initial vertical position to the top of the page
     document.body.appendChild(dropDonut); //Adds new donut
     dropDonut.style.zIndex = '-1'; // Sends to back!
     

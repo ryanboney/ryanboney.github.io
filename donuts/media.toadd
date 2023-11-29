@@ -1,0 +1,73 @@
+*
+/* Smartphones */
+
+@media only screen and (max-width: 500px) {
+  #donut{
+    scale: 80%;
+    margin: -20px; 
+  }
+  #counter{
+    scale: 80%;
+  }
+  .row{
+    scale: 80%;
+  }
+}
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+  #donut{
+    scale: 100%;
+  }
+  #counter{
+    scale: 100%;
+  }
+  .row{
+    scale: 100%;
+  }
+  
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width:1200px){
+  #donut{
+    scale: 100%;
+  }
+  #counter{
+    scale: 100%;
+  }
+  .row{
+    scale:100%;
+  }
+  
+}
+
+/* Widescreen */
+@media (min-width: 1201px) {
+  #donut{
+    scale: 125%;
+    margin-top: 80px;
+  }
+  #counter{
+    scale: 125%;
+  }
+  .row{
+    scale:125%;
+  }
+  
+  }
+
+  /* Landscape */
+  @media (max-height: 500px) {
+    #donut{
+      scale: 100%;
+    }
+    #counter{
+      scale: 100%;
+    }
+    .row{
+      scale:100%;
+    }
+  
+  }
+  

@@ -1,0 +1,11 @@
+{
+"companyName": "DefaultCompany",
+"productName": "FT1",
+"dataUrl": "fft.data.unityweb",
+"asmCodeUrl": "fft.asm.code.unityweb",
+"asmMemoryUrl": "fft.asm.memory.unityweb",
+"asmFrameworkUrl": "fft.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
